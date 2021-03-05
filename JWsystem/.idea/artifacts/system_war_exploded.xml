@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="system:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/system_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="system/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="system" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/system/web/WEB-INF/libs/commons-dbutils-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/system/web/WEB-INF/libs/druid-1.1.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/system/web/WEB-INF/libs/mysql-connector-java-8.0.22.jar" />
+          <element id="library" level="module" name="JUnit4" module-name="system" />
+          <element id="library" level="project" name="commons-io-2.8.0" />
+          <element id="library" level="project" name="commons-fileupload-1.4" />
+          <element id="library" level="project" name="taglibs-standard-spec-1.2.1" />
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.1" />
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="file-copy" path="$PROJECT_DIR$/system/web/WEB-INF/libs/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/system/web/WEB-INF/libs/taglibs-standard-impl-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/system/web/WEB-INF/libs/taglibs-standard-spec-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/system/web/WEB-INF/libs/commons-beanutils-1.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/system/web/WEB-INF/libs/commons-logging-1.1.1.jar" />
+          <element id="library" level="project" name="gson-2.2.4" />
+          <element id="file-copy" path="$PROJECT_DIR$/system/web/WEB-INF/libs/gson-2.8.0.jar" />
+          <element id="library" level="project" name="jsp-api" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
